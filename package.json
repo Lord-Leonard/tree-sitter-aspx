@@ -1,0 +1,25 @@
+{
+  "name": "tree-sitter-aspx",
+  "version": "1.0.0",
+  "description": "Tree-sitter grammar for asp.net aspx pages.",
+  "main": "bindings/node",
+  "scripts": {
+    "lint": "eslint grammar.js",
+    "parse": "tree-sitter parse",
+    "test": "tree-sitter test"
+  },
+  "keywords": [
+    "parser",
+    "json"
+  ],
+  "author": "Leonard Georg",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0",
+    "tree-sitter-cli": "^0.21.0-pre-release-1"
+  }
+}
