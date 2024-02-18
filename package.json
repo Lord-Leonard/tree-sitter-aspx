@@ -5,8 +5,9 @@
   "main": "bindings/node",
   "scripts": {
     "lint": "eslint grammar.js",
-    "parse": "tree-sitter parse",
-    "test": "tree-sitter test"
+    "parse": "tree-sitter parse example-file",
+    "test": "tree-sitter test",
+    "build": "tree-sitter generate"
   },
   "keywords": [
     "parser",
@@ -21,5 +22,9 @@
     "eslint": "^8.56.0",
     "eslint-config-google": "^0.14.0",
     "tree-sitter-cli": "^0.21.0-pre-release-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   }
 }
