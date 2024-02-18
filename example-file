@@ -1,0 +1,15 @@
+<%@ Page Language="C#" %>
+<%
+  var foo = Request.QueryString["foo"];
+  var bar = FooBar.bar();
+%>
+
+<!doctype html>
+<html lang="de">
+<head>
+</head>
+<body>
+<%= project %>
+<%-- Komponentne --%>
+</body>
+</html>
