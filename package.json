@@ -26,5 +26,15 @@
   "repository": {
     "type": "git",
     "url": ""
-  }
+  },
+  "tree-sitter": [
+    {
+      "scope": "text.aspx",
+      "file-types": [
+        "aspx"
+      ],
+      "injections": "queries/injections.scm",
+      "injection-regex": "aspx"
+    }
+  ]
 }
